@@ -106,6 +106,7 @@ for (let i = 1; i < zodis.length; i = i + 2) {
 console.log('----------');
 
 const zodis2 = 'pomidoras';
+// const pirmosRaidesPozicija = step -1;
 const step = 3;
 let rez = '';
 
