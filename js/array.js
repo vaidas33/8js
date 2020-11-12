@@ -7,7 +7,6 @@ Saraso tipo kintamieji:
 */
 
 // Pazymiai
-
 const petriukoPazymiai = [2, 10, 7, 5];
 console.log(petriukoPazymiai);
 
