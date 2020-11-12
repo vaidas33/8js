@@ -81,3 +81,10 @@ if (zodis1 === zodis2) {
 } else {
     console.log(false);
 }
+
+/*
+Kintamieji
+Salygo funkcijos
+Ciklo funkcijos
+Funkcijos Eventai lisner'iai
+*/
