@@ -27,7 +27,7 @@ console.log('----------');
 Parasyti skaicius nuo 8 iki 4 imtinai.
 */
 
-for (let i=8; i>=4; i--) {
+for (let i = 8; i >= 4; i--) {
     console.log(i);
 }
 
@@ -76,7 +76,7 @@ console.log('----------');
 // -----------------
 const text = 'labas';
 
-for (let i=0; i < text.length; i++) {
+for (let i = 0; i < text.length; i++) {
     console.log(text[i]);
 }
 
@@ -102,6 +102,19 @@ for (let i = 1; i < zodis.length; i = i + 2) {
     // console.log(zodis[i]);
     console.log(kiekis);
 }
+
+console.log('----------');
+
+const zodis3 = 'abcdef';
+console.log(zodis3);
+
+let kiekis3 = '';
+
+for (let i = 1; i < zodis3.length; i = i + 2) {
+    const raide3 = zodis3[i];
+    kiekis3 = kiekis3 + raide3;
+}
+console.log(kiekis3);
 
 console.log('----------');
 
