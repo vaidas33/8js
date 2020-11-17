@@ -53,3 +53,11 @@ console.log(bigNum(['labas', 1, 3, 2]));
 
 console.log(bigNum([NaN, 2, 3]));
 console.log(bigNum([2, NaN, 3]));
+
+// demo funkcija, skirta testams sudaryti
+function sum(a, b) {
+    return a + b;
+}
+
+console.log(bigNum(sum));
+console.log(bigNum([sum]));
