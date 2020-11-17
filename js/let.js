@@ -18,9 +18,13 @@ if (x == 10) {
 }
 console.log(x); // 10: reference at the begining of the script
 
-console.log('-----------------');
+console.log('2 Funkcijos uzduotis');
 
-function tusciaFunkcija() {
-    return false;
+function daugyba(skaicius1, skaicius2) {
+    const suma = skaicius1 * skaicius2;
+    return suma;
 }
-console.log(tusciaFunkcija());
+
+console.log(daugyba(1, 2));
+console.log(daugyba(3, 2));
+console.log(daugyba(1, 3));
