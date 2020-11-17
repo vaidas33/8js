@@ -30,7 +30,7 @@ const iki2 = 0;
 
 let sum2 = 0;
 
-if (nuo < iki)
+if (nuo2 < iki2)
     for (let i = nuo2; i <= iki2; i++) {
         sum2 = sum2 + i;
         // console.log(i, '=>', sum2);
@@ -40,3 +40,5 @@ else {
         sum2 = sum2 + i;
     }
 }
+
+console.log(`Skaičių intervale tarp ${nuo2} ir ${iki2} suma yra ${sum2}`);

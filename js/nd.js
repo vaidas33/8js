@@ -233,18 +233,46 @@ console.log(atsakymas);
 // Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 5 yra 3 vienetai.
 // Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 7 yra 2 vienetai.
 
-// console.log('Dalijasi is 3');
+console.log('3 For ciklo uzduotis');
+const nuo = 0;
+const iki = 11;
+const daliklis = 3;
 
-// const divider = 3;
-// const skaic = 11;
-// let sumaa = 0;
-// let totall = 0;
+let kiekis = 0;
 
-// for (let i = 0; i <= skaic; i++) {
-//     if (skaic / divider) {
-//         sumaa = skaic % i;
-//         console.log(sumaa);
-//     } else {
-//         console.log('nesidalija');
-//     }
-// }
+for (let i = nuo; i <= iki; i++) {
+    if (i % daliklis === 0) {
+        kiekis++;
+    }
+}
+
+console.log(
+    `Skaičių intervale tarp ${nuo} ir ${iki}, besidalijančių be liekanos iš ${daliklis} yra ${kiekis} vienetai.`
+);
+
+/***************************************
+ *FUNKCIJOS
+ ***************************************/
+
+// 1. Funkcija pavadinimu “tusciaFunkcija”:
+// nepriima jokių kintamųjų
+// neatlieka jokios vidinės logikos
+// gražina boolean tipo reikšmę “false”
+// TESTAS:
+// console.log( tusciaFunkcija() );
+// rezultatas: false
+
+console.log('1 Funkcijos uzduotis');
+
+function tusciaFunkcija() {
+    return false;
+}
+console.log(tusciaFunkcija());
+
+console.log('2 Funkcijos uzduotis');
+
+function daugyba(skaicius1, skaicius2) {
+    console.log(daugyba);
+}
+
+daugyba(1, 2);

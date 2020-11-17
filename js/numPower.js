@@ -33,8 +33,15 @@ const f0 = faktorialas(0);
 const f1 = faktorialas(1);
 const f2 = faktorialas(2);
 const f3 = faktorialas(3);
+const f4 = faktorialas(4);
+const f5 = faktorialas(5);
 
 console.log(f0, '->', 1);
+console.log(f1, '->', 1);
+console.log(f2, '->', 2);
+console.log(f3, '->', 6);
+console.log(f4, '->', 24);
+console.log(f5, '->', 120);
 
 console.log('-------------------');
 
@@ -48,8 +55,21 @@ function lyginisFaktorialas(n) {
     return rez;
 }
 
+//  1 * 2 * 4* 6 * 8
 const lf0 = lyginisFaktorialas(0);
 const lf1 = lyginisFaktorialas(1);
 const lf2 = lyginisFaktorialas(2);
+const lf3 = lyginisFaktorialas(3);
+const lf4 = lyginisFaktorialas(4);
+const lf5 = lyginisFaktorialas(5);
+const lf6 = lyginisFaktorialas(6);
+const lf7 = lyginisFaktorialas(7);
 
-console.log(lf0);
+console.log(lf0, '->', 1);
+console.log(lf1, '->', 1);
+console.log(lf2, '->', 2);
+console.log(lf3, '->', 2);
+console.log(lf4, '->', 8);
+console.log(lf5, '->', 8);
+console.log(lf6, '->', 48);
+console.log(lf7, '->', 48);

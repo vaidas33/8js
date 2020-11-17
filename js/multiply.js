@@ -16,7 +16,8 @@ function multiply(a, b) {
         console.error('ERROR: pirmoji reiksme ne skaiciaus tipo');
         return false;
     }
-    if ('' + a === NaN) {
+    // if ('' + a === NaN) {
+    if (isNaN(a)) {
         console.error('ERROR: pirmoji reiksme ne normalus skaicius');
         return false;
     }
@@ -26,7 +27,7 @@ function multiply(a, b) {
     }
     // if ('' + a === NaN) {
     if (isNaN(b)) {
-        console.error('ERROR: pirmoji reiksme ne normalus skaicius');
+        console.error('ERROR: antroji reiksme ne normalus skaicius');
         return false;
     }
 
@@ -37,11 +38,25 @@ function multiply(a, b) {
     return rez;
 }
 
-console.log(multiply('labas', 5));
-console.log(multiply(5));
+console.log(multiply(8, 'labas'));
+console.log(multiply('labas', 'ate'));
+console.log(multiply('labas', true));
+console.log(multiply(87, true));
+console.log(multiply(87, false));
+console.log(multiply(false, false));
+console.log(multiply(true, false));
+console.log(multiply(true, true));
+console.log(multiply(45, []));
+console.log(multiply(45, [2]));
+console.log(multiply(45, [2, 5, 6]));
+console.log(multiply(-2));
 console.log(multiply());
+console.log(multiply(2, NaN));
+console.log(multiply(NaN, 2));
+
 console.log(multiply(2, 2));
 console.log(multiply(2, 5));
 console.log(multiply(-2, 5));
-console.log(multiply('labas', 'ok'));
-console.log(multiply(2, NaN));
+console.log(multiply(-2, -5));
+console.log(multiply(2, Infinity));
+console.log(multiply(Infinity, Infinity));
